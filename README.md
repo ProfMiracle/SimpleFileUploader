@@ -1,6 +1,6 @@
 # SimpleFileUploader
 Simplifies PHP upload functions<br>
-# sample input array--> <br><br>
+# sample input array <br><br>
       $file = array(
         'file'=> $file,
         'destination'=> $destination,
@@ -9,6 +9,6 @@ Simplifies PHP upload functions<br>
                        'update'=>array('table'=>'table_name', 'column'=>'column_name', 
                        'match'=>'matching_row', 'match_data'=>'match_data')
                        )
-         )<br>
+         )
 # sample call
 File::upload($file)
